@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618339530179.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6A6D1FDE",
+    "lastKnownWriteTime" : 20266400193970287,
+    "last_content_update" : 1618339530179,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ACE9A540",
+        "caption" : "top_20_cities_5th",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=top_20_cities_5th&cache_key=ACE9A540",
+        "displayedObservations" : 356256,
+        "environment" : "",
+        "object" : "top_20_cities_5th",
+        "preview" : 0,
+        "totalObservations" : 356256,
+        "variables" : 10
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

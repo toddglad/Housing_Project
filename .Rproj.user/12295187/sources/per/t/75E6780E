@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618600992121.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "75E6780E",
+    "lastKnownWriteTime" : 366287248,
+    "last_content_update" : 1618600992121,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ACDD16DB",
+        "caption" : "cities_states",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cities_states&cache_key=ACDD16DB",
+        "displayedObservations" : "1318840",
+        "environment" : "",
+        "object" : "cities_states",
+        "preview" : "0",
+        "totalObservations" : "1318840",
+        "variables" : "16"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

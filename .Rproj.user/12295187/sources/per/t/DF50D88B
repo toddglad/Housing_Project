@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618600777668.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DF50D88B",
+    "lastKnownWriteTime" : 4294967297,
+    "last_content_update" : 1618600777668,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1B5BF959",
+        "caption" : "us_cities1",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=us_cities1&cache_key=1B5BF959",
+        "displayedObservations" : 28338,
+        "environment" : "",
+        "object" : "us_cities1",
+        "preview" : 0,
+        "totalObservations" : 28338,
+        "variables" : 17
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

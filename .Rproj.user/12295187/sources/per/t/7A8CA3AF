@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618339593142.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7A8CA3AF",
+    "lastKnownWriteTime" : 2,
+    "last_content_update" : 1618339593142,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E2970D5B",
+        "caption" : "uscities",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=uscities&cache_key=E2970D5B",
+        "displayedObservations" : 28338,
+        "environment" : "",
+        "object" : "uscities",
+        "preview" : 0,
+        "totalObservations" : 28338,
+        "variables" : 17
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
