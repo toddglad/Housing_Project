@@ -22,13 +22,15 @@ print("It worked")
 df  = pd.read_csv(r'C:\Users\twade\Desktop\Housing Project\ChurchofJesusChristTemples.csv',engine = 'python')
 gmaps = googlemaps.Client(key='AIzaSyAIFjhJ68houXa379poru_HMRHpxrRzrY4')
 
+print(df)
+
 def pairwise(iterable):
     a, b = tee(iterable)
     next(b, None)
     return zip(a, b)
 
 #empty list - will be used to store calculated distances
-list = [0]
+list = []
 
 # Loop through each row in the data frame using pairwise
 for (i1, row1), (i2, row2) in pairwise(df.iterrows()):
@@ -44,13 +46,12 @@ for (i1, row1), (i2, row2) in pairwise(df.iterrows()):
 
       #pass origin and destination variables to distance_matrix function# output in meters
       result = gmaps.distance_matrix(origins, destination, mode='driving', units = 'imperial')["rows"][0]["elements"][0]
-      
       #append result to list
-      list.append(result)
+      list.append(result["distance"]["text"])
+      print(result["distance"]["text"])
 
-print(list)
 df['Distance']=list
-
+print("here")
 # 
 # reverse_geocode_result = gmaps.reverse_geocode((40.714224, -73.961452))
 # destination = (40.6943, -73.9249)
